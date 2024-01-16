@@ -1,6 +1,55 @@
 unit module Gzz::Prompt:ver<0.1.1>:auth<Francis Grizzly Smit (grizzly@smit.id.au)>;
 use NativeCall;
-#use Readline;
+
+=begin pod
+
+=begin head2
+
+Table of Contents
+
+=end head2
+
+=item1 L<NAME|#name>
+=item1 L<AUTHOR|#author>
+=item1 L<VERSION|#version>
+=item1 L<TITLE|#title>
+=item1 L<SUBTITLE|#subtitle>
+=item1 L<COPYRIGHT|#copyright>
+=item1 L<Introduction|#introduction>
+=item1 L<class Gzz_readline|#class-gzz_readline> or L<on raku.land class Gzz_readline|#class-gzz-readline>
+
+=NAME Gzz::Prompt 
+=AUTHOR Francis Grizzly Smit (grizzly@smit.id.au)
+=VERSION 0.1.1
+=TITLE Gzz::Prompt
+=SUBTITLE A Raku module to do basic prompting with editing and like readline but with the ability to prefill the value.
+
+=COPYRIGHT
+LGPL V3.0+ L<LICENSE|https://github.com/grizzlysmit/Syntax-Highlighters/blob/main/LICENSE>
+
+
+L<Top of Document|#table-of-contents>
+
+=head1 Introduction
+
+A Raku module to do basic prompting with editing and like readline but with the ability to prefill the value.
+
+B<NB: I use the NativeCall module to get at a C library C<gzz_readline.so> which is a fork of
+the C<readline> library, I had to fork it as it doesn't normally allow you to prefill the value>
+L<See gzzReadline|https://github.com/grizzlysmit/gzzReadline>.
+
+=head2 class Gzz_readline
+
+=begin code :lang<raku>
+
+class Gzz_readline is export 
+
+=end code
+
+L<Top of Document|#table-of-contents>
+
+
+=end pod
 
 class Gzz_readline is export {
 
