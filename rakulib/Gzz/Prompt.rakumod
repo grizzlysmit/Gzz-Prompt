@@ -1,5 +1,4 @@
 unit module Gzz::Prompt:ver<0.1.1>:auth<Francis Grizzly Smit (grizzly@smit.id.au)>;
-use v6;
 use NativeCall;
 #use Readline;
 

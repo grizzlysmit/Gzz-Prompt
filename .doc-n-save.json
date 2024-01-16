@@ -1,0 +1,17 @@
+{
+    "only-app": true,
+    "markdown-path": "README.md",
+    "bin": "bin",
+    "separate-markdown-files": false,
+    "comment": "using doc-n-save",
+    "lib": "rakulib",
+    "additional-pod-files": [
+    ],
+    "exts": [
+        "rakumod",
+        "raku",
+        "rakudoc"
+    ],
+    "docs": "docs",
+    "name": "Gzz::Prompt"
+}
