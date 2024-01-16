@@ -8,7 +8,7 @@
     "Gzz::Prompt": "lib/Gzz::Prompt.raku"
   },
   "license": "LGPL-3.0-or-later",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "perl": "6.d",
   "source-url": "https://github.com/grizzlysmit/Gzz-Prompt.git",
   "support": {

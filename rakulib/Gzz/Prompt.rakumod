@@ -1,9 +1,9 @@
+unit module Gzz::Prompt:ver<0.1.1>:auth<Francis Grizzly Smit (grizzly@smit.id.au)>;
 use v6;
 use NativeCall;
 #use Readline;
-#unit module GzzPrompt:ver<0.1.0>:auth<Francis Grizzly Smit (grizzlysmit@smit.id.au)>;
 
-class Gzz_readline:ver<0.0.1.1> is export {
+class Gzz_readline is export {
 
     sub LIBGZZ_READLINE {
         my $library = 'gzz_readline';
