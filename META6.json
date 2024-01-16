@@ -5,7 +5,7 @@
   "name": "Gzz::Prompt",
   "description": "A Raku application for .",
   "provides": {
-    "Gzz::Prompt": "bin/Gzz::Prompt.raku"
+    "Gzz::Prompt": "lib/Gzz::Prompt.raku"
   },
   "license": "LGPL-3.0-or-later",
   "version": "0.1.0",
