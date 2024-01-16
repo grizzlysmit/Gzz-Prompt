@@ -1,0 +1,29 @@
+{
+  "test-depends": [
+    ""
+  ],
+  "name": "Gzz::Prompt",
+  "description": "A Raku application for .",
+  "provides": {
+    "Gzz::Prompt": "bin/Gzz::Prompt.raku"
+  },
+  "license": "LGPL-3.0-or-later",
+  "version": "0.1.0",
+  "perl": "6.d",
+  "source-url": "https://github.com/grizzlysmit/Gzz-Prompt.git",
+  "support": {
+    "bugtracker": "https://github.com/grizzlysmit/Gzz-Prompt/issues",
+    "source": "https://github.com/grizzlysmit/Gzz-Prompt.git",
+    "email": "grizzly@smit.id.au"
+  },
+  "depends": [
+    ""
+  ],
+  "tags": [
+    ""
+  ],
+  "auth": "zef:grizzlysmit",
+  "authors": [
+    "Francis Grizzly Smit <grizzly@smit.id.au>"
+  ]
+}
