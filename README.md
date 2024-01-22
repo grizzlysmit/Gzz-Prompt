@@ -56,6 +56,8 @@ A Raku module to do basic prompting with editing and like readline but with the 
 
 **NB: I use the NativeCall module to get at a C library `gzz_readline.so` which is a fork of the `readline` library, I had to fork it as it doesn't normally allow you to prefill the value** [See gzzReadline](https://github.com/grizzlysmit/gzzReadline).
 
+[NOTE: you must install gzzReadline to use this](https://github.com/grizzlysmit/gzzReadline)
+
 class Gzz_readline
 ------------------
 

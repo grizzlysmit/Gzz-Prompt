@@ -38,6 +38,8 @@ B<NB: I use the NativeCall module to get at a C library C<gzz_readline.so> which
 the C<readline> library, I had to fork it as it doesn't normally allow you to prefill the value>
 L<See gzzReadline|https://github.com/grizzlysmit/gzzReadline>.
 
+L<NOTE: you must install gzzReadline to use this|https://github.com/grizzlysmit/gzzReadline>
+
 =head2 class Gzz_readline
 
 =begin code :lang<raku>
