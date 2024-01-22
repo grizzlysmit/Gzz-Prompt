@@ -1,5 +1,5 @@
 {
-    "only-app": true,
+    "only-app": false,
     "markdown-path": "README.md",
     "bin": "bin",
     "separate-markdown-files": false,
