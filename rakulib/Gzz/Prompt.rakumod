@@ -131,7 +131,7 @@ class Gzz_readline is export {
     #
     sub gzzreadline( Str, Str ) is export returns Str
         is native( LIBGZZ_READLINE ) { * }
-    method gzzreadline( Str $prompt, Str $prefill ) returns Str {
+    method gzzreadline(Str:D $prompt, Str:D $prefill) returns Str {
         gzzreadline( $prompt, $prefill )
     }
 
