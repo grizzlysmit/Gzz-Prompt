@@ -20,7 +20,7 @@ Table of Contents
 
 =NAME Gzz::Prompt 
 =AUTHOR Francis Grizzly Smit (grizzly@smit.id.au)
-=VERSION 0.1.1
+=VERSION 0.1.2
 =TITLE Gzz::Prompt
 =SUBTITLE A Raku module to do basic prompting with editing and like readline but with the ability to prefill the value.
 
